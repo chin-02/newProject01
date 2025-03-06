@@ -203,6 +203,13 @@ input{
 .last-cont{
     margin-left: 5px
 }
+.card-img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.card-img{
+    filter: drop-shadow(10px 10px 20px rgb(153, 153, 153));
+}
 
 @media (max-width:952px) {
     .logo{
